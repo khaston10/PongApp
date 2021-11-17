@@ -34,6 +34,7 @@ class PongApp(App):
         Clock.schedule_interval(game.update, 1.0/60.0)
         return game
 
+# Adding a Comment to test Git Bach setup
 
 if __name__ == '__main__':
     PongApp().run()
